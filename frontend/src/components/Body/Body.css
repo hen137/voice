@@ -1,0 +1,9 @@
+.n-body{
+    height: 60vh;
+    width: 65vw;
+    background-color: blueviolet;
+    margin: 0;
+    position: absolute;
+    top: 15vh;
+    right: 4vw;
+}

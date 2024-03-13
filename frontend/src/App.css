@@ -1,0 +1,15 @@
+.root{
+  --primary-colour: #ac556f;
+  --navtext-colour: #fff;
+
+}
+
+.App{
+  background-color: #faf5e4;
+  width: 100vw;
+  height: 100vh;
+}
+
+ul{
+  list-style-type: none;
+}

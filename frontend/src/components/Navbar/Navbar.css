@@ -1,0 +1,19 @@
+.n-nav{
+    height: 80vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #b44164;
+    margin-left: 4vw;
+    margin-top: 0px;
+    color: #fff;
+}
+
+.n-title{
+
+}
+
+.n-navitems{
+    
+}

@@ -1,0 +1,14 @@
+img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 85%;
+    height: 85%;
+}
+
+.n-bio{
+    height: 10vw;
+    width: 10vw;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
