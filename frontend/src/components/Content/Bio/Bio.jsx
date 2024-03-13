@@ -3,10 +3,10 @@ import './Bio.css'
 
 const Bio = ({headshot}) => {
     return (
-        <div className="n-bio">
-            <img src={require('/headshots/' + headshot)} alt="" />
-            First Last
-        </div>
+        <a href='' className="n-bio">
+            <img src={process.env.PUBLIC_URL + '/headshots/' + headshot} alt="" />
+            <h3>FIRST LAST</h3>
+        </a>
     )
 }
 

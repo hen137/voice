@@ -6,9 +6,9 @@ img {
 }
 
 .n-bio{
-    height: 10vw;
-    width: 10vw;
+    height: 20vh;
+    width: 20vh;
     display: block;
-    margin: auto;
     text-align: center;
+    text-decoration: none;
 }

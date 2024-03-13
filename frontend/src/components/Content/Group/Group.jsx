@@ -4,17 +4,15 @@ import './Group.css';
 
 const Group = () => {
     return (
-        <div className="n-group">
-            <ul>
-                <li><Bio headshot='squid.jpg'/></li>
-                <li><Bio headshot='' /></li>
-                <li><Bio headshot='' /></li>
-                <li><Bio headshot='' /></li>
-                <li><Bio headshot='' /></li>
-                <li><Bio headshot='' /></li>
-                <li><Bio headshot='' /></li>
+        <ul className="n-list">
+                <li className='n-member'><Bio headshot='squid.jpg'/></li>
+                <li className='n-member'><Bio headshot='squid.jpg'/></li>
+                <li className='n-member'><Bio headshot='squid.jpg'/></li>
+                <li className='n-member'><Bio headshot='squid.jpg'/></li>
+                <li className='n-member'><Bio headshot='squid.jpg'/></li>
+                <li className='n-member'><Bio headshot='squid.jpg'/></li>
+                <li className='n-member'><Bio headshot='squid.jpg'/></li>
             </ul>
-        </div>
     )
 }
 

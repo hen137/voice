@@ -1,4 +1,13 @@
-n-group{
+.n-list{
+    height: 100%;
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    /* margin: 0; */
+    padding: 0%;
+    flex-wrap: wrap;
+}
+
+.n-member{
+    margin: 4%;
 }
