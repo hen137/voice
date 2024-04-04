@@ -1,10 +1,7 @@
-.n-body{
-    height: fit-content;
-    width: 65vw;
-    min-height: 60vh;
-    background-color: blueviolet;
-    margin: 0;
-    position: absolute;
-    top: 15vh;
-    right: 4vw;
+.body{
+    max-width: 75vw;
+    min-width: 20vw;
+    width: 75vw;
+    margin: auto 0 auto auto;
+    /* overflow-y: visible; */
 }

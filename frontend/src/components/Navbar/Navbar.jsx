@@ -1,24 +1,27 @@
-import React from 'react'
 import './Navbar.css'
 
-const Navbar = () => {
+export default function Navbar({ changeContent }) {
   return (
-    <div className="n-nav">
-      <div className="n-container">
-        <h1 className="n-title">Mindful Consumer</h1>
-        <ul className="n-navitems">
-          <li>what we do</li>
-          <li>who we are</li>
-          <li>podcast</li>
+    <nav className="navbar">
+      <h1 className="nav-title">Mindful Consumer</h1>
+      <div>
+        <ul className="nav-items">
+          <li className='nav-link' onClick={() => changeContent(0)}>what we do</li>
+          <li className='nav-link' onClick={() => changeContent(1)}>who we are</li>
+          <li className='nav-link' onClick={() => changeContent(2)}>podcast</li>
         </ul>
-        <div className="n-socials">
-          <a href=""><img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpngimg.com%2Fuploads%2Finstagram%2Finstagram_PNG9.png&f=1&nofb=1&ipt=6c4f6fa5f0c96672d4a579f64f0f22d09420c64a3203d76badd22ee075c37671&ipo=images" alt="" /></a>
-          <a href=""><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F016%2F716%2F458%2Foriginal%2Fspotify-icon-free-png.png&f=1&nofb=1&ipt=5ae1024ae3297aec1d3f23133970a8c82270cc67dda3938c8e8c7edead8f0234&ipo=images" alt="" /></a>
-          <a href=""><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fclipart.info%2Fimages%2Fccovers%2F1590430652red-youtube-logo-png-xl.png&f=1&nofb=1&ipt=0491ce121e2066a59e1397fed1e8c20208c947262feb82082940e0d8ff1f5706&ipo=images" alt="" /></a>
-        </div>
+        <ul className="nav-socials">
+          <li>
+            <a className='nav-icon spotify' href=""><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.freepnglogos.com%2Fuploads%2Fspotify-logo-png%2Fspotify-logo-transparent-spotify-logo-images-25.png&f=1&nofb=1&ipt=42d749c1bc30dfcc316ecf7396dc3a88eb1e4553f60f83390722bf09059ef626&ipo=images" alt="" /></a>
+          </li>
+          <li>
+            <a className='nav-icon instagram' href=""><img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpluspng.com%2Fimg-png%2Finstagram-logo-eps-png-instagram-logo1-instagram-logo-1915.png&f=1&nofb=1&ipt=4d98a2b4dfea850e5d0355cc0e97d0c2b710e7bd88e291f6cddc20b8c39c3cf0&ipo=images" alt="" /></a>
+          </li>
+          <li>
+            <a className='nav-icon youtube' href=""><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn3.iconfinder.com%2Fdata%2Ficons%2Fsocial-network-30%2F512%2Fsocial-06-1024.png&f=1&nofb=1&ipt=2a847c1f033e12838fb52c22d53328aabd14f8e8bd7a71fb383d022124235e8e&ipo=images" alt="" /></a>
+          </li>
+        </ul>
       </div>
-    </div>
-  )
+    </nav>
+  );
 }
-
-export default Navbar

@@ -1,19 +1,19 @@
 import React from 'react'
-import Bio from '../Bio/Bio';
+import Member from './Member/Member';
 import './Group.css';
 
-const Group = () => {
+export default function Group() {
     return (
-        <ul className="n-list">
-                <li className='n-member'><Bio headshot='squid.jpg'/></li>
-                <li className='n-member'><Bio headshot='squid.jpg'/></li>
-                <li className='n-member'><Bio headshot='squid.jpg'/></li>
-                <li className='n-member'><Bio headshot='squid.jpg'/></li>
-                <li className='n-member'><Bio headshot='squid.jpg'/></li>
-                <li className='n-member'><Bio headshot='squid.jpg'/></li>
-                <li className='n-member'><Bio headshot='squid.jpg'/></li>
-            </ul>
-    )
+        <div className='group'>
+            <Member memberName={"Henry Abramovich"} memberDescription={""}/>
+            <Member memberName={"Jasraj Singh"} memberDescription={""}/>
+            <Member memberName={"Jay Sharma"} memberDescription={""}/>
+            <Member memberName={"Sana Sharma"} memberDescription={""}/>
+            <Member memberName={"Hiva Sharma"} memberDescription={""}/>
+            <Member memberName={"TonyJin Sharma"} memberDescription={""}/>
+            <Member memberName={"Manasha Sharma"} memberDescription={""}/>
+        </div>
+    );
 }
 
-export default Group
+

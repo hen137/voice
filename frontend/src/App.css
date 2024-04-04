@@ -1,15 +1,18 @@
 :root{
-  --primary-colour: #ac556f;
-  --navtext-colour: #fff;
-
+  --purple-dark: #605399;
+  --purple-light: #7769d8;
+  --purple-lighter: #d4b6ee;
+  --purple-neutral: #e4def9;
+  --pink-dark: #d562be;
+  --pink-light: #ebc1ee;
+  --beige-light: #ffe4c4;
 }
 
 .App{
-  background-color: #faf5e4;
+  background-color: var(--neutral-colour);
   width: 100vw;
   height: 100vh;
-}
-
-ul{
-  list-style-type: none;
+  display: flex;
+  justify-content: right;
+  overflow-y: hidden;
 }
