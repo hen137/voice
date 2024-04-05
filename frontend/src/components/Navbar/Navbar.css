@@ -4,8 +4,8 @@ ul {
 
 .navbar {
     height: 100vh;
+    min-height: 400px;
     min-width: 300px;
-    /* max-width: 300px; */
     margin: 0 3vw 0 3vw;
     color: var(--purple-neutral);
     background-color: var(--purple-light);
@@ -14,12 +14,14 @@ ul {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    position: relative;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
-.title {
+.font-Pacifico {
     font-family: 'Pacifico';
-    font-weight: normal;
-    font-size: 250%;
+    font-size: 200%;
+    user-select: none;
 }
 
 .nav-items {
@@ -30,27 +32,51 @@ ul {
 }
 
 .nav-link:hover {
-    border-radius: 20px;
+    border-radius: 15px;
     background-color: var(--beige-light);
     color: var(--purple-dark);
     transition: 0.2s ease-in-out;
+    cursor: pointer;
+    user-select: none;
 }
 
 .nav-socials {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: space-evenly;
     padding: 0;
+}
+
+.nav-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-icon:hover {
+    background-color: var(--beige-light);
+    border-radius: 7px;
     transition: 0.2s ease-in-out;
 }
 
-.nav-icon>img {
+.nav-icon>img:hover {
+    filter: invert(32%) sepia(22%) saturate(1465%) hue-rotate(211deg) brightness(96%) contrast(81%);
+}
+
+img {
     object-fit: contain;
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
 }
 
 .spotify {
-    /* filter: hue-rotate(180deg); */
+
+    /* vertical-align: middle; */
 }
 
 .instagram {}

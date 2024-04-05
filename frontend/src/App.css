@@ -1,4 +1,4 @@
-:root{
+:root {
   --purple-dark: #605399;
   --purple-light: #7769d8;
   --purple-lighter: #d4b6ee;
@@ -8,11 +8,14 @@
   --beige-light: #ffe4c4;
 }
 
-.App{
-  background-color: var(--neutral-colour);
+.App {
+  background: #e4def9;
+  background: linear-gradient(15deg, #e4def9 22%, #c2b1fc 100%);
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: right;
   overflow-y: hidden;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap')

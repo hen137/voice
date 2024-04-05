@@ -1,9 +1,9 @@
-.member{
+.member {
     background-color: var(--purple-light);
     color: var(--purple-neutral);
-    height: 230px;
-    width: 230px;
-    min-width: 50px;
+    aspect-ratio: 1 / 1;
+    height: fit-content;
+    max-height: 250px;
     padding: 25px;
     margin: 5px;
     align-content: center;
@@ -12,13 +12,22 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    box-shadow: var(--pink-dark) 0px 5px, var(--pink-light) 0px 10px, var(--beige-light) 0px 15px;
-    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+    box-shadow: var(--pink-dark) 0px 5px 4px, var(--pink-light) 0px 10px 6px, var(--beige-light) 0px 15px 8px;
 }
 
-.headshot{
+.headshot {
     border-radius: 50%;
     object-fit: cover;
     height: 100px;
     width: 100px;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.font-SCP{
+    font-family: 'Source Code Pro';
+}
+
+.name{
+    
 }

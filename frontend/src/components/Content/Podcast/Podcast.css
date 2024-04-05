@@ -1,0 +1,15 @@
+.podcast {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    color: var(--purple-dark);
+    background-color: var(--purple-light);
+}
+
+.youtube-link {
+    aspect-ratio: 1920 / 1080;
+    width: 60vw;
+    min-width: 400px;
+}
