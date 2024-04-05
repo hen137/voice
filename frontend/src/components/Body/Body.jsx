@@ -1,6 +1,6 @@
-import Group from '../Content/Group/Group'
-import Mission from '../Content/Mission/Mission'
-import Podcast from '../Content/Podcast/Podcast'
+import Group from './Content/Group/Group'
+import Mission from './Content/Mission/Mission'
+import Podcast from './Content/Podcast/Podcast'
 import './Body.css'
 
 function getContent(content) {

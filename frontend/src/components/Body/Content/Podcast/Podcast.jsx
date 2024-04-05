@@ -23,7 +23,6 @@ export default function Podcast() {
     setPState(state[pIndex]);
   }
 
-
   return (
     <div className='podcast'>
       <h3 className='podcast-title'>{pState.title}</h3>
