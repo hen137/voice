@@ -5,13 +5,13 @@ import './Group.css';
 export default function Group() {
     return (
         <div className='group'>
-            <Member memberName={"Henry Abramovich"} memberDescription={"i am so great. i am simply the best."}/>
-            <Member memberName={"Jasraj Singh"} memberDescription={"wow i cant believe its not butter"}/>
-            <Member memberName={"Jay Sharma"} memberDescription={"youre telling me a shrimp fried this rice? are ya at least paying him a living wage.."}/>
-            <Member memberName={"Sana Sharma"} memberDescription={"the voices the freaking voicessssss. anyways, word to yo mama"}/>
-            <Member memberName={"Hiva Sharma"} memberDescription={""}/>
-            <Member memberName={"TonyJin Sharma"} memberDescription={""}/>
-            <Member memberName={"Manasha Sharma"} memberDescription={""}/>
+            <Member memberName={"Henry Abramovich"} memberDescription={"Computer Science - Fourth Year"}/>
+            <Member memberName={"Jasraj Singh"} memberDescription={"Criminology - X Year"}/>
+            <Member memberName={"Jay Sharma"} memberDescription={"Software Engineering - X Year"}/>
+            <Member memberName={"Sana Sharma"} memberDescription={"Philosophy - X Year"}/>
+            <Member memberName={"Hiva Sharma"} memberDescription={"Criminology - Fourth year"}/>
+            <Member memberName={"TonyJin Sharma"} memberDescription={"Interdisciplinary Social Science - Fourth Year"}/>
+            <Member memberName={"Manasha Sharma"} memberDescription={"Business of Commerce - X Year"}/>
         </div>
     );
 }

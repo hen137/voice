@@ -16,8 +16,6 @@ export default function Navbar({ changeContent }) {
           
             <a className='nav-icon' href="https://www.instagram.com/mindfulconsumer9/"><img className='instagram' src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpluspng.com%2Fimg-png%2Finstagram-logo-eps-png-instagram-logo1-instagram-logo-1915.png&f=1&nofb=1&ipt=4d98a2b4dfea850e5d0355cc0e97d0c2b710e7bd88e291f6cddc20b8c39c3cf0&ipo=images" alt="" /></a>
           
-            <a className='nav-icon' href="https://www.youtube.com/"><img className='youtube' src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fclipart-library.com%2Fimages_k%2Fyoutube-transparent-icon%2Fyoutube-transparent-icon-17.png&f=1&nofb=1&ipt=80716031ef42121b68c3f7ffe893eda8caad47e7ad3ce68387d0eb85e83b7361&ipo=images" alt="" /></a>
-          
         </div>
       </div>
     </nav>

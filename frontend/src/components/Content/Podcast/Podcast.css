@@ -6,10 +6,47 @@
     border-radius: 15px;
     color: var(--purple-dark);
     background-color: var(--purple-light);
+    
 }
 
-.youtube-link {
+.podcast-title{
+    font-family: 'Pacifico';
+    font-size: 200%;
+    color: var(--purple-neutral);
+    margin: auto auto 15px auto;
+    text-align: center;
+}
+
+.interface{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
     aspect-ratio: 1920 / 1080;
     width: 60vw;
     min-width: 400px;
+}
+
+.left-arrow{
+    transform: scaleX(-1);
+}
+
+.img-cont{
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.img-cont:hover {
+    background-color: var(--beige-light);
+    border-radius: 7px;
+    transition: 0.2s ease-in-out;
+}
+
+img{
+    filter: brightness(0%);
 }
