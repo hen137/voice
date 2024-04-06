@@ -3,9 +3,9 @@ import './Podcast.css'
 
 export default function Podcast() {
   const state = [
-    { title: 'Episode 1: The Nitty Gritties of Consumerism', src_mp4: '/episodes/Mindful_Consumer_Podcast_Ep1video.mp4' },
-    { title: 'Episode 2: A Techno-social perspective', src_mp4: '/episodes/Mindful_Consumer_Podcast_Ep2video.mp4' },
-    { title: 'Episode 3: Digital Detox', src_mp4: '/episodes/Mindful_Consumer_Podcast_Ep3video.mp4' }
+    { title: 'Episode 1: The Nitty Gritties of Consumerism', src_mp4: '/episodes/Mindful_Consumer_Podcast_Ep1video.mp4', src_webm: '/episodes/Mindful_Consumer_Podcast_Ep1.webm' },
+    { title: 'Episode 2: A Techno-social perspective', src_mp4: '/episodes/Mindful_Consumer_Podcast_Ep2video.mp4', src_webm: '/episodes/Mindful_Consumer_Podcast_Ep2.webm'  },
+    { title: 'Episode 3: Digital Detox', src_mp4: '/episodes/Mindful_Consumer_Podcast_Ep3video.mp4', src_webm: '/episodes/Mindful_Consumer_Podcast_Ep3.webm'  }
   ]
 
   const [pIndex, setPIndex] = useState(0);
